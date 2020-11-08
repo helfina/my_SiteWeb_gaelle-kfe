@@ -1,0 +1,40 @@
+/*
+                    RESET CSS
+*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    /* background: white; */
+    color: black;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body,
+  input,
+  button {
+    font-size: medium;
+    /* font-family: ; */
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+
+.c1{width: ;}
+.c2{width: ;}
+.c3{width: ;}
+.c4{width: ;}
+.c5{width: ;}
+.c6{width: ;}
+.c7{width: ;}
+.c8{width: ;}
+.c9{width: ;}
+.c10{width: ;}
+.c11{width: ;}
+.c12{width: ;}
