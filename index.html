@@ -4,115 +4,212 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaëlle Kerforne étudiante / Freelance</title>
-
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Title</title>
 </head>
 
-<body>
-    <!-- HEADER -->
-    <header>
-        <nav>
+<body class="container-fluid">
+    <!-- FICHE INFO -->
+    <section class="card shadow w-25 p-3 mb-5 bg-white rounded">
+        <h1 class="card-title">KERFORNE Gaëlle</h1>
+        <h2 class="card-subtitle">Développeur Intégrateur Web</h2>
+        <img class="img-fluid rounded" src="assets/img/20200913_194044.jpg" alt="une photo de moi">
+        <ul class="card-body">
+            <li><strong>Name : </strong> Gaëlle Kerforne</li>
+            <li><strong>Birthday : </strong> 19 Juin 1988</li>
+            <li><strong> Job : </strong> Développeuse Intégratrice Web</li>
+            <li><a href="mailto:gkerforne@gmail.com"></a><strong>Email : </strong> gkerforne@gmail.com</li>
+            <li><a href="tel:0786598911"></a><strong>Tel : </strong>07.86.59.89.11</li>
+        </ul>
+        <a class="card-link btn btn-primary" href="assets/gaelle-kerforne-cv-3wa2.pdf"
+            download="gaelle-kerforne-cv.pdf">Download C.V
+            <i class="fas fa-download"></i>
+        </a>
+    </section>
 
-            <ul>
-                <li>
-                    <a href="index.html">
-                        <img src="assets/img/logo1.png" alt="logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="">Portfolio</a>
-                </li>
-                <li>
-                    <a href="">Services</a>
-                </li>
-                <li>
-                    <a href="">Contact</a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/kerforne.gaelle.9">
-                        <img src="assets/img/icons/facebook.png" alt="facebook">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/ga%C3%ABlle-kerforne/">
-                        <img src="assets/img/icons/linkedin.png" alt="linkedin">
-                    </a>
-                </li>
+    <header class="container">
+        <!-- MENU -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#home"><img src="assets/img/logo1.png" alt="logo"></a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">A Propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
 
-                <li>
-                    <a href="https://twitter.com/Kerforne56">
-                        <img src="assets/img/icons/twitter.png" alt="twitter">
-                    </a>
-                </li>
-
-                <li>
-
-                    <a href="mailto:gkerforne@gmail.com">
-                        <input type="button" value="Engagez-moi">
-                        <img src="assets/img/icons/paper-plane.png" alt="sender">
-                    </a>
-
-                </li>
-
-            </ul>
-
+                <ul class="navbar-nav">
+                    <li class="nav-link"><a href="https://www.facebook.com/kerforne.gaelle.9">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-link"><a href="https://www.linkedin.com/in/ga%C3%ABlle-kerforne/">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-link"><a href="https://twitter.com/Kerforne56">
+                            <i class="img-fuid fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-link"><a href="https://twitter.com/Kerforne56">
+                            <i class="img-fuid fab fa-github" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+                <a class="btn btn-info" href="mailto:gkerforne@gmail.com">Engagez-moi
+                    <i class="fas fa-paper-plane"></i>
+                </a>
+            </div>
         </nav>
-        <!-- FICHE INFO -->
-        <section>
-            <h1>KERFORNE Gaëlle</h1>
-            <h2>Développeur Intégrateur Web</h2>
-            <img src="assets/img/20200913_194044.jpg" alt="une photo de moi">
-            <ul>
-                <li><strong>Name : </strong> Gaëlle Kerforne</li>
-                <li><strong>Birthday : </strong> 19 Juin 1988</li>
-                <li><strong> Job : </strong> Développeuse Intégratrice Web</li>
-                <li><a href="mailto:gkerforne@gmail.com"></a><strong>Email : </strong> gkerforne@gmail.com</li>
-                <li><a href="tel:0786598911"></a><strong>Tel : </strong>07.86.59.89.11</li>
-            </ul>
-            <input type="button" value="download"><a href="" download="assets/gaelle-kerforne-cv-3wa2.pdf">Download
-                C.V</a>
-        </section>
     </header>
-    <main>
-
-        <div>
+    <main class="container">
+        <section class="row" id="about">
+            <h3 class="text-center">à Propos</h3>
             <!--ABOUT -->
-            <article>
-                <h3>à Propos</h3>
-                <p>
-
-                </p>
+            <article class="col-12">
+                <h3>Objectif</h3>
+                <p>Dans le cadre de ma formation de concepteur développeur d’application Web je suis a la recherche
+                    d'une alternance(contrat pro) au rythme de 3 semaine en entreprise et 1 semaine de cours</p>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s1fCDQKqCwA" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
             </article>
             <!-- SKILL -->
-            <article>
+            <article class="col-12">
                 <h3>Compétences</h3>
-                <p>
-
-                </p>
+                <div class="img_compet">
+                    <img src="assets/img/logo/html5.png" alt="logo html5">
+                    <img src="assets/img/logo/css-5.png" alt="logo css3">
+                    <img src="assets/img/logo/javascript-4.png" alt="logo Javascript">
+                    <img src="assets/img/logo/jquery-1.png" alt="logo Jquery">
+                    <img src="assets/img/logo/php.png" alt="logo php">
+                    <img src="assets/img/logo/mysql-5.png" alt="logo MySQL">
+                    <img src="assets/img/logo/github-1.png" alt="logo github">
+                    <img src="assets/img/logo/composer.png" alt="logo composer">
+                </div>
             </article>
-            <!-- EXPERIENCES -->
-            <section>
-                <h3>Expériences</h3>
-                <article>
-                    <h4></h4>
-                    <p>
 
-                    </p>
-                </article>
-            </section>
-            <!-- TRAINING -->
-            <section>
-                <h3>Formations</h3>
-                <article>
-                    <h4></h4>
-                    <p></p>
-                </article>
+            <!-- EXPERIENCES ET FORMATION -->
+            <section class="col-12">
+                <h2>Experiences et Formations</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-timeline2 row ">
+                            <!-- experience -->
+                            <article class="timeline">
+                                <span class="icon fa fa-briefcase"></span>
+                                <a href="#" target="_blank" class="timeline-content">
+                                    <h3 class="title">Concepteur Developpeur Web | Seeweb</h3>
+                                    <em>17 NOVEMBRE 2020 |JANVIER2020 |VANNES </em>
+                                    <p class="description">
+                                        n'ayant pas encore commencer, je vous en parlerais prochainement
+                                    </p>
+                                </a>
+                            </article>
+                            <!-- formation -->
+                            <article class="timeline">
+                                <span class="icon fa fa-school"></span>
+                                <a href="https://3wa.fr/formations/formation-developpeur-informatique/concepteur-developpeur-web-2-ans-alternance/"
+                                    target="_blank" class="timeline-content">
+                                    <h3 class="title">Concepteur Développeur web | 3w Academy</h3>
+                                    <em>OCTOBRE 2020 | OCTOBRE 2022 | ALTERNANCE </em>
+                                    <p class="description row">
+                                        <strong> Les modules :</strong>
+                                        <ul>
+                                            <li>La Programmation Orientée Objet approfondie</li>
+                                            <li>Les bases de données avancées (nosql)</li>
+                                        </ul>
+                                        <strong> Front-end avancé:</strong>
+                                        <ul>
+                                            <li>JavaScript, développement web avancé en JavaScript et Firebase</li>
+                                            <li>React ou Angular, création d’une application web avec le framework
+                                                React</li>
+                                        </ul>
+                                        <p> <strong>Back-end avancé :</strong> 2 langages à choisir parmi Node.JS, Java
+                                            ou Symfony</p>
+                                        <ul>
+                                            <li>Conception de projet, architecture et gestion de projet</li>
+                                            <li>Intelligence Artificielle : Apprentissage automatique IA avec
+                                                TensorFlow.js</li>
+                                            <li>Construction d’un projet final et soutenance devant le Jury</li>
+                                        </ul>
+                                    </p>
+                                </a>
+                            </article>
+
+                            <!-- experience -->
+                            <article class="timeline">
+                                <span class="icon fa fa-briefcase"></span>
+                                <a href="http://www.iole.fr/concept-iole/" target="_blank" class="timeline-content">
+                                    <h3 class="title">Développeur Intégrateur Web | Iole Solution</h3>
+                                    <em>AVRIL 2020 - JUIN 2020 | STAGE | VANNES </em>
+                                    <p class="description">
+                                        Ma mission a été de développer un concept d'emailing, pour cela j'ai choisi
+                                        d'utiliser la
+                                        librairie PHPMailer sans utiliser composer. De l'architecture du concept a sa
+                                        conception.
+                                        <strong>
+                                            Langages et outils utilisé :</br>
+                                        </strong>
+                                        Javascript , PHP, Postgresl , Sass, Xmind
+                                    </p>
+                                </a>
+                            </article>
+
+                            <!-- formation -->
+                            <article class="timeline">
+                                <span class="icon fa fa-school"></span>
+                                <a href="https://kercode.fr/formation-de-6-mois-developpeur-web/" target="_blank"
+                                    class="timeline-content">
+                                    <h3 class="title">Développeur Intégrateur Web | Greta </h3>
+                                    <em>NOVEMBRE 2019 - JUIN 2020 | VANNES</em>
+                                    <p class="description">
+                                        <strong>Kercode</strong> est une formation intensif de 6mois</br>
+                                        <strong>Language et outils appris</strong>
+                                        <ul class="row">
+                                            <li class="col-6">HTML , CSS , Bootstrap</li>
+                                            <li class="col-6"> Javascript , jquery</li>
+                                            <li class="col-6"> SEO, ergonomie</li>
+                                            <li class="col-6"> PHP, Mysql</li>
+                                            <li class="col-6">Laravel, Wordpress</li>
+                                            <li class="col-6">Composer, github</li>
+                                        </ul>
+                                    </p>
+                                </a>
+                            </article>
+
+
+                        </div>
+                    </div>
+                </div>
             </section>
 
-        </div>
+
+            <section id="service">
+
+            </section>
+            <section id="contact">
+                <!-- <h3>Me Contactez</h3> -->
+
+            </section>
     </main>
+    <footer class="container-xl bg-info"></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
